@@ -11,10 +11,10 @@ It's a [custom build](https://gitea.dmz.rs/Decentrala/cantor) of the [Cantor key
 ### Base Layer
 ![Base Layer](/images/layers/layer_0.png?raw=true)
 
-### Left Hand Layer
+### Right Hand Layer
 ![Left Hand Layer](/images/layers/layer_1.png?raw=true)
 
-### Right Hand Layer
+### Left Hand Layer
 ![Right Hand Layer](/images/layers/layer_2.png?raw=true)
 
 ### Mouse Layer
