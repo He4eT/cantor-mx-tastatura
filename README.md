@@ -1,10 +1,9 @@
 # Cantor Tastatura
 
-> "Tastatura" is the Serbian word for "keyboard".
-
 It's a [custom build](https://gitea.dmz.rs/Decentrala/cantor) of the [Cantor keyboard](https://github.com/diepala/cantor) by the [Decentrala comunity](https://decentrala.org/).
 
 ![Overview](/images/photos/overview.jpg?raw=true)
+> "Tastatura" is the Serbian word for "keyboard".
 
 ## Layout
 
