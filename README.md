@@ -1,6 +1,6 @@
-# Cantor Tastatura
+# Cantor MX Tastatura
 
-It's my personal layout for the [custom build](https://gitea.dmz.rs/Decentrala/cantor) of the [Cantor keyboard](https://github.com/diepala/cantor) by the [Decentrala comunity](https://decentrala.org/).
+It's my personal layout for the [custom build](https://gitea.dmz.rs/Decentrala/cantor) of the [Cantor MX Keyboard](https://github.com/diepala/cantor) by the [Decentrala comunity](https://decentrala.org/).
 
 ![Overview](/images/photos/overview.jpg?raw=true)
 > "Tastatura" is the Serbian word for "keyboard".
