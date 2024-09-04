@@ -21,4 +21,4 @@ It's my personal layout for the [custom build](https://gitea.dmz.rs/Decentrala/c
 
 ## Case
 
-The [Slim Case](https://www.printables.com/model/996711-cantor-mx-slim-case) is a remix of the [Cantor MX Case](https://www.printables.com/model/707238-cantor-mx-case) by [@JellyTitan](https://www.printables.com/@JellyTitan).
+The [Cantor MX Slim Case](https://www.printables.com/model/996711-cantor-mx-slim-case) is a remix of the [Cantor MX Case](https://www.printables.com/model/707238-cantor-mx-case) by [@JellyTitan](https://www.printables.com/@JellyTitan).
