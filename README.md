@@ -13,7 +13,7 @@ It's my personal layout for the [custom build](https://gitea.dmz.rs/Decentrala/c
   git clone --recurse-submodules git@github.com:vial-kb/vial-qmk.git
   cd vial-qmk
   ```
-- (Optional) Change the layer count in the config:
+- [Optional] Change the layer count in the config:
   ```
   vial-qmk/keyboards/cantor/keymaps/vial/config.h
   ```
@@ -29,7 +29,7 @@ It's my personal layout for the [custom build](https://gitea.dmz.rs/Decentrala/c
   - For additional details, refer to: [STM32 Black Pill](https://land-boards.com/blwiki/index.php?title=STM32_Black_Pill)
 - Repeat the flashing process for the second controller.
 - Download the Vial configurator: https://get.vial.today/
-- Configure udev rules for the first launch: https://get.vial.today/manual/linux-udev.html
+- [Linux Only] Configure udev rules for the first launch: https://get.vial.today/manual/linux-udev.html
 - Open the Vial configurator.
 
 ## Layout
