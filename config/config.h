@@ -1,0 +1,10 @@
+/* default layer count */
+#define DYNAMIC_KEYMAP_LAYER_COUNT 8
+
+#define EE_HANDS
+
+#define BOOTMAGIC_ROW 0
+#define BOOTMAGIC_COLUMN 0
+
+#define BOOTMAGIC_ROW_RIGHT 4
+#define BOOTMAGIC_COLUMN_RIGHT 5
