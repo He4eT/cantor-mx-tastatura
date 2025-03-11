@@ -17,6 +17,7 @@ It's my personal layout for the [custom build](https://gitea.dmz.rs/Decentrala/c
   ```
   vial-qmk/keyboards/cantor/keymaps/vial/config.h
   ```
+  See the [sample](/config/config.h).
 - Connect the controller to your computer using a USB cable
 - Start the flashing process for the controller (Docker required):
   ```
