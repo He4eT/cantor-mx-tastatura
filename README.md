@@ -20,7 +20,7 @@ It's my personal layout for the [custom build](https://gitea.dmz.rs/Decentrala/c
     - **Optional**: add `#define EE_HANDS` in `vial-qmk/keyboards/cantor/keymaps/vial/config.h`
 
   - **Blackpill (f411), 8MHz**
-    - Replace `vial-qmk/keyboards/cantor` content with files from `./config/cantor/`.
+    - Replace content of the `vial-qmk/keyboards/cantor` with files from `./config/cantor/`.
 
 - Start the flashing process for the controller (Docker required):
   - With EE_HANDS in config:
