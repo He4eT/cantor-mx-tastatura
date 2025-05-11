@@ -15,7 +15,7 @@ It's my personal layout for the [custom build](https://gitea.dmz.rs/Decentrala/c
   ```
 - Connect the controller to your computer using a USB cable
 
-- Update config:
+- Update configs:
   - **Blackpill, 25MHz**
     - **Optional**: add `#define EE_HANDS` in `vial-qmk/keyboards/cantor/keymaps/vial/config.h`
 
