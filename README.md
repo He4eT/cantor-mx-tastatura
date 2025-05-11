@@ -28,7 +28,7 @@ It's my personal layout for the [custom build](https://gitea.dmz.rs/Decentrala/c
     sudo util/docker_build.sh cantor:vial:dfu-util-split-left
     sudo util/docker_build.sh cantor:vial:dfu-util-split-right
     ```
-  - Without EE_HANDS in config (left half will me the master half):
+  - Without EE_HANDS in config (left half will be the master half):
     ```
     sudo util/docker_build.sh cantor:vial:flash
     ```
