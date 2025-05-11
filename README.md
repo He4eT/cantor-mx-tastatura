@@ -23,12 +23,12 @@ It's my personal layout for the [custom build](https://gitea.dmz.rs/Decentrala/c
     - Replace content of the `vial-qmk/keyboards/cantor` with files from `./config/cantor/`.
 
 - Start the flashing process for the controller (Docker required):
-  - With EE_HANDS in config:
+  - With EE_HANDS in config (each half respectively):
     ```
     sudo util/docker_build.sh cantor:vial:dfu-util-split-left
     sudo util/docker_build.sh cantor:vial:dfu-util-split-right
     ```
-  - Without EE_HANDS in config:
+  - Without EE_HANDS in config (left half will me the master half):
     ```
     sudo util/docker_build.sh cantor:vial:flash
     ```
