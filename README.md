@@ -14,14 +14,11 @@ It's my personal layout for the [custom build](https://gitea.dmz.rs/Decentrala/c
   cd vial-qmk
   ```
 - Connect the controller to your computer using a USB cable
-
 - Update configs:
-  - **Blackpill, 25MHz**
-    - **Optional**: add `#define EE_HANDS` in `vial-qmk/keyboards/cantor/keymaps/vial/config.h`
-
   - **Blackpill (f411), 8MHz**
     - Replace content of the `vial-qmk/keyboards/cantor` with files from `./config/cantor/`.
-
+  - **Blackpill, 25MHz**
+    - **Optional**: add `#define EE_HANDS` in `vial-qmk/keyboards/cantor/keymaps/vial/config.h`
 - Start the flashing process for the controller (Docker required):
   - With EE_HANDS in config (each half respectively):
     ```
