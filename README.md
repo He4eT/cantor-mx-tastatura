@@ -13,18 +13,24 @@ It's my personal layout for the [custom build](https://gitea.dmz.rs/Decentrala/c
   git clone --recurse-submodules git@github.com:vial-kb/vial-qmk.git
   cd vial-qmk
   ```
-- **Important**: In case of `blackpill_f411` use correspondent config!
-  - Copy the `cantor` directory from `./config/cantor/` to `vial-qmk/keyboards/cantor`.
 - Connect the controller to your computer using a USB cable
+
+- ### Blackpill, 25MHz
+  - **Optional**: add `#define EE_HANDS` in `vial-qmk/keyboards/cantor/keymaps/vial/config.h`
+
+- ### Blackpill (f411), 8mhz,
+  - **Important**: In case of `blackpill_f411` use correspondent config!
+  - Copy the `cantor` directory from `./config/cantor/` to `vial-qmk/keyboards/cantor`.
+
 - Start the flashing process for the controller (Docker required):
-  - Default config:
-    ```
-    sudo util/docker_build.sh cantor:vial:flash
-    ```
-  - EE_HANDS config:
+  - With EE_HANDS in config:
     ```
     sudo util/docker_build.sh cantor:vial:dfu-util-split-left
     sudo util/docker_build.sh cantor:vial:dfu-util-split-right
+    ```
+  - Without EE_HANDS in config:
+    ```
+    sudo util/docker_build.sh cantor:vial:flash
     ```
 - Use the onboard BOOT0 and NRST button to put the board into bootloader mode:
   - press and hold the BOOT0 button
