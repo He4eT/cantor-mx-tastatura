@@ -1,4 +1,4 @@
-# Usage example: make flash blackpill=f411-8mhz half=left
+# Usage example: make flash blackpill=f411_8mhz half=left
 
 # Current half: 'left' or 'right'
 half ?= left
@@ -6,7 +6,7 @@ half ?= left
 blackpill ?= f401
 
 qmk_dir := vial-qmk
-keyboard := custom-cantor-${blackpill}
+keyboard := custom_cantor_${blackpill}
 keymap := vial
 target := dfu-util-split-$(half)
 

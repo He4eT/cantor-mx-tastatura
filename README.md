@@ -19,7 +19,7 @@ Configuration for the 8MHz version of Blackpill_f411 provided by the [Xecut hack
 3. Start the flashing process (Docker required):
     - For **8MHz Blackpill_f411** controllers:
       ```
-      make flash blackpill=f411-8mhz half=left
+      make flash blackpill=f411_8mhz half=left
       ```
     - Otherwise:
       ```
