@@ -2,7 +2,7 @@
 
 [Cantor MX Keyboard](https://github.com/diepala/cantor) by the [Decentrala comunity](https://decentrala.org/).
 
-Firmware for the 8MHz version of Blackpill_f411 provided by the [Xecut hackspace](https://xecut.me).
+Configuration for the 8MHz version of Blackpill_f411 provided by the [Xecut hackspace](https://xecut.me).
 
 ![Overview](/images/photos/overview.jpg?raw=true)
 ![Overview Alternative](/images/photos/overview_alt.jpg?raw=true)
@@ -26,10 +26,10 @@ Firmware for the 8MHz version of Blackpill_f411 provided by the [Xecut hackspace
       make flash half=left
       ```
 4. Use the onboard `BOOT0` and `NRST` button to put the board into bootloader mode:
-  - press and hold the `BOOT0` button;
-  - press and release the `NRST` (Reset) button to power cycle the processor;
-  - release the `BOOT0` button;
-  - For additional details, refer to [STM32 Black Pill](https://land-boards.com/blwiki/index.php?title=STM32_Black_Pill);
+    - press and hold the `BOOT0` button;
+    - press and release the `NRST` (Reset) button to power cycle the processor;
+    - release the `BOOT0` button;
+    - For additional details, refer to [STM32 Black Pill](https://land-boards.com/blwiki/index.php?title=STM32_Black_Pill);
 5. Repeat the process from step 2 for the **right** half.
 6. Download the [Vial configurator](https://get.vial.today/).
 7. **Linux Only**: Configure [udev rules](https://get.vial.today/manual/linux-udev.html) for the first launch.
@@ -48,7 +48,8 @@ from the [vial-qmk](https://github.com/vial-kb/vial-qmk/) repository is used.
 ```
 ./layouts/odd_cantor_tastatura.vil
 ```
-See [this forum thread](https://forum.dmz.rs/t/cantor-mx-keyboard/700) for some explanations.
+Check out [this forum thread](https://forum.dmz.rs/t/cantor-mx-keyboard/700)
+for some explanations.
 
 #### Base Layer
 ![Base Layer](/images/layers/layer_0.png?raw=true)
