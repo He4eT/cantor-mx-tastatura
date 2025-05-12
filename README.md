@@ -4,8 +4,6 @@
 
 Additional firmware for the 8MHz version of Blackpill_f411 provided by the [Xecut hackspace](https://xecut.me).
 
-Vial supported.
-
 ![Overview](/images/photos/overview.jpg?raw=true)
 ![Overview Alternative](/images/photos/overview_alt.jpg?raw=true)
 > "Tastatura" is the Serbian word for "keyboard".
@@ -13,25 +11,25 @@ Vial supported.
 ## Initial Flash
 
 1. Clone this repository:
-  ```
-  git clone --recurse-submodules git@github.com:He4eT/cantor-mx-tastatura.git
-  cd cantor-mx-tastatura
-  ```
+    ```
+    git clone --recurse-submodules git@github.com:He4eT/cantor-mx-tastatura.git
+    cd cantor-mx-tastatura
+    ```
 2. Connect the **left** controller to your computer using a USB cable.
 3. Start flashing proccess (Docker required):
-  - For **8MHz Blackpill_f411** controllers:
-    ```
-    make flash blackpill=f411-8mhz half=left
-    ```
-  - Otherwise:
-    ```
-    make flash half=left
-    ```
+    - For **8MHz Blackpill_f411** controllers:
+      ```
+      make flash blackpill=f411-8mhz half=left
+      ```
+    - Otherwise:
+      ```
+      make flash half=left
+      ```
 4. Use the onboard `BOOT0` and `NRST` button to put the board into bootloader mode:
-  - press and hold the `BOOT0` button;
-  - press and release the `NRST` (Reset) button to power cycle the processor;
-  - release the `BOOT0` button;
-  - For additional details, refer to [STM32 Black Pill](https://land-boards.com/blwiki/index.php?title=STM32_Black_Pill);
+    - press and hold the `BOOT0` button;
+    - press and release the `NRST` (Reset) button to power cycle the processor;
+    - release the `BOOT0` button;
+    - For additional details, refer to [STM32 Black Pill](https://land-boards.com/blwiki/index.php?title=STM32_Black_Pill);
 5. Repeat the process from step 2 for the **right** half.
 6. Download the [Vial configurator](https://get.vial.today/).
 7. **Linux Only**: Configure [udev rules](https://get.vial.today/manual/linux-udev.html) for the first launch.
@@ -45,11 +43,12 @@ Vial supported.
 By default, the [Cantor Vial layout](https://github.com/vial-kb/vial-qmk/blob/vial/keyboards/cantor/keymaps/vial/keymap.c)
 from the [vial-qmk](https://github.com/vial-kb/vial-qmk/) repository is used.
 
-### My own layout
+### My Opinionated Layout
 
 ```
 ./layouts/odd_cantor_tastatura.vil
 ```
+See [this forum thread](https://forum.dmz.rs/t/cantor-mx-keyboard/700) for additional info.
 
 #### Base Layer
 ![Base Layer](/images/layers/layer_0.png?raw=true)
