@@ -16,7 +16,7 @@ Configuration for the 8MHz version of Blackpill_f411 provided by the [Xecut hack
     cd cantor-mx-tastatura
     ```
 2. Connect the **left** controller to your computer using a USB cable.
-3. Start flashing proccess (Docker required):
+3. Start the flashing process (Docker required):
     - For **8MHz Blackpill_f411** controllers:
       ```
       make flash blackpill=f411-8mhz half=left
@@ -26,11 +26,11 @@ Configuration for the 8MHz version of Blackpill_f411 provided by the [Xecut hack
       make flash half=left
       ```
 4. Use the onboard `BOOT0` and `NRST` button to put the board into bootloader mode:
-    - press and hold the `BOOT0` button;
-    - press and release the `NRST` (Reset) button to power cycle the processor;
-    - release the `BOOT0` button;
-    - For additional details, refer to [STM32 Black Pill](https://land-boards.com/blwiki/index.php?title=STM32_Black_Pill);
-5. Repeat the process from step 2 for the **right** half.
+    - press and hold the `BOOT0` button,
+    - press and release the `NRST` (Reset) button to power cycle the processor,
+    - release the `BOOT0` button,
+    - For additional details, refer to [STM32 Black Pill](https://land-boards.com/blwiki/index.php?title=STM32_Black_Pill).
+5. Repeat the process starting from step 2 for the **right** half.
 6. Download the [Vial configurator](https://get.vial.today/).
 7. **Linux Only**: Configure [udev rules](https://get.vial.today/manual/linux-udev.html) for the first launch.
 8. Open the Vial configurator.
