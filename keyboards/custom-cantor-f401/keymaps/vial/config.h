@@ -1,11 +1,15 @@
-
 /* keyboard uid */
 #define VIAL_KEYBOARD_UID {0xF0, 0x67, 0x2F, 0x54, 0x23, 0xB3, 0x7B, 0x55}
 
 #define VIAL_UNLOCK_COMBO_ROWS { 0, 4 }
 #define VIAL_UNLOCK_COMBO_COLS { 0, 5 }
 
-/* default layer count */
-#define DYNAMIC_KEYMAP_LAYER_COUNT 4
+#define BOOTMAGIC_ROW 0
+#define BOOTMAGIC_COLUMN 0
 
+#define BOOTMAGIC_ROW_RIGHT 4
+#define BOOTMAGIC_COLUMN_RIGHT 5
 
+#define DYNAMIC_KEYMAP_LAYER_COUNT 8
+
+#define EE_HANDS
