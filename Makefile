@@ -2,7 +2,7 @@
 
 # Current half: 'left' or 'right'
 half ?= left
-# See ./keyboards/custom-cantor-[blackpill]
+# See ./keyboards/custom_cantor_[blackpill]
 blackpill ?= f401
 
 qmk_dir := vial-qmk
