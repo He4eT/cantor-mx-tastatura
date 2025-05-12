@@ -1,0 +1,3 @@
+[submodule "vial-qmk"]
+	path = vial-qmk
+	url = git@github.com:vial-kb/vial-qmk.git
