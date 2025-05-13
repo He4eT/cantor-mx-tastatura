@@ -10,7 +10,7 @@ keyboard := custom_cantor_${blackpill}
 keymap := vial
 target := dfu-util-split-$(half)
 
-build_cmd = sudo util/docker_build.sh ${keyboard}:${keymap}:${target}
+build_cmd := sudo util/docker_build.sh ${keyboard}:${keymap}:${target}
 
 keyboards_clean:
 	cd ${qmk_dir} && git clean -fd
