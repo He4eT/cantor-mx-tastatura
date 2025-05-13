@@ -27,3 +27,5 @@ flash:
 	@make qmk_flash
 	@echo '---'
 	@make keyboards_clean
+
+# vim: set ts=4 sw=4 autoindent noexpandtab:
