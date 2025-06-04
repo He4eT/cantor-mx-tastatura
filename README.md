@@ -28,8 +28,9 @@ Configuration for the 8MHz version of Blackpill_f411 provided by the [Xecut hack
 4. Use the onboard `BOOT0` and `NRST` button to put the board into bootloader mode:
     - press and hold the `BOOT0` button,
     - press and release the `NRST` (Reset) button to power cycle the processor,
-    - release the `BOOT0` button,
-    - For additional details, refer to [STM32 Black Pill](https://land-boards.com/blwiki/index.php?title=STM32_Black_Pill).
+    - release the `BOOT0` button.
+
+   For additional details, refer to [STM32 Black Pill](https://land-boards.com/blwiki/index.php?title=STM32_Black_Pill).
 5. Repeat the process starting from step 2 for the **right** half.
 6. Download the [Vial configurator](https://get.vial.today/).
 7. **Linux Only**: Configure [udev rules](https://get.vial.today/manual/linux-udev.html) for the first launch.
