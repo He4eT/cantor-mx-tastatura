@@ -31,6 +31,7 @@ Configuration for the 8MHz version of Blackpill_f411 provided by the [Xecut hack
     - release the `BOOT0` button.
 
    For additional details, refer to [STM32 Black Pill](https://land-boards.com/blwiki/index.php?title=STM32_Black_Pill).
+   See also the [troubleshooting section](#Troubleshooting).
 5. Repeat the process starting from step 2 for the **right** half.
 6. Download the [Vial configurator](https://get.vial.today/).
 7. **Linux Only**: Configure [udev rules](https://get.vial.today/manual/linux-udev.html) for the first launch.
@@ -71,3 +72,15 @@ for some explanations.
 ```
 The [Cantor MX Slim Case](https://www.printables.com/model/996711-cantor-mx-slim-case) is
 a remix of the [Cantor MX Case](https://www.printables.com/model/707238-cantor-mx-case) by [@JellyTitan](https://www.printables.com/@JellyTitan).
+
+## Troubleshooting
+
+### dfu-util: Error during download
+
+Some versions of the STM32 Black Pill are [unable to be flashed over USB using DFU mode](https://github.com/qmk/qmk_firmware/issues/17576).
+In this case, you can usually flash the firmware using an ST-LINK device instead:
+
+```sh
+make flash half=left
+st-flash write ./vial-qmk/custom_cantor_f401_vial.bin 0x8000000
+```
