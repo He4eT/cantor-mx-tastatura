@@ -11,18 +11,18 @@ Configuration for the 8MHz version of Blackpill_f411 provided by the [Xecut hack
 ## Initial Flash
 
 1. Clone this repository:
-    ```
+    ```sh
     git clone --recurse-submodules git@github.com:He4eT/cantor-mx-tastatura.git
     cd cantor-mx-tastatura
     ```
 2. Connect the **left** controller to your computer using a USB cable.
 3. Start the flashing process (Docker required):
     - For **8MHz Blackpill_f411** controllers:
-      ```
+      ```sh
       make flash blackpill=f411_8mhz half=left
       ```
     - Otherwise:
-      ```
+      ```sh
       make flash half=left
       ```
 4. Use the onboard `BOOT0` and `NRST` button to put the board into bootloader mode:
@@ -46,7 +46,7 @@ from the [vial-qmk](https://github.com/vial-kb/vial-qmk/) repository is used.
 
 ### My Opinionated Layout
 
-```
+```text
 ./layouts/odd_cantor_tastatura.vil
 ```
 Check out [this forum thread](https://forum.dmz.rs/t/cantor-mx-keyboard/700)
@@ -66,7 +66,7 @@ for some explanations.
 
 ## Case
 
-```
+```text
 ./things/case_slim.stl
 ```
 The [Cantor MX Slim Case](https://www.printables.com/model/996711-cantor-mx-slim-case) is
